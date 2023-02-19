@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          crossorigin="anonymous">
+</head>
+<body>
+<div class="container col-md-5 text-center mt-4">
+    <h2 class="text text-primary mb-4">EMPLOYEE DETAIL</h2>
+    <div class="row bg-light">
+        <div class="col">
+            <img th:src="${employee.image}" width="200" height="200">
+        </div>
+        <div class="col">
+            <h1 class="text-success" th:text="${employee.name}" />
+            <h3 th:text="'Age: ' + ${employee.age}" />
+            <h3 th:text="'Address: ' + ${employee.address}" />
+        </div>
+    </div>
+</div>
+</body>
