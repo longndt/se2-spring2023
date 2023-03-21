@@ -10,7 +10,7 @@ public class Screen {
 		System.out.println(message);
 	}
 	
-	public void dispalyDollarAmount(double amount) {
+	public void displayDollarAmount(double amount) {
 		System.out.printf("$%,.2f", amount);
 	}
 }// end class screen

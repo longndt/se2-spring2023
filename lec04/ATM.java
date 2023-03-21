@@ -39,7 +39,7 @@ public class ATM {
 			performTransactions();
 			userAuthenticated = false;
 			currentAccountNumber = 0;
-			screen.displayMessageLine("\nThank You! Gooodbye!");
+			screen.displayMessageLine("\nThank You! Good bye!");
 		}// end while
 	} // end method run
 	
@@ -56,7 +56,7 @@ public class ATM {
 		if (userAuthenticated) {
 			currentAccountNumber = accountNumber; 
 		} else {
-			screen.displayMessage("\nIvalid account number or PIN code. Please try again.");
+			screen.displayMessage("\nInvalid account number or PIN code. Please try again.");
 		}
 	}
 		
@@ -96,7 +96,7 @@ public class ATM {
 			screen.displayMessageLine("\nMain Menu:");
 			screen.displayMessageLine("1 - View my balance");
 			screen.displayMessageLine("2 - Withdraw cash");
-			screen.displayMessageLine("3 - Depsosit funds ");
+			screen.displayMessageLine("3 - Deposit funds ");
 			screen.displayMessageLine("4 - Exit\n");
 			return keypad.getInput();
 		}

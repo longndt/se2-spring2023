@@ -3,7 +3,7 @@
 
 public class Account {
 	private int accountNumber; // acc number
-	private int pin; // pin number
+	private int pin; // PIN number
 	private double availableBalance; // balance which is currently available
 	private double totalBalance; // total funding + pending deposits
 	
@@ -39,7 +39,7 @@ public class Account {
 		totalBalance += amount;
 	}
 	
-	public void depit(double amount) {
+	public void debit(double amount) {
 		availableBalance -= amount;
 		totalBalance -= amount;
 	}

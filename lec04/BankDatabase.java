@@ -50,6 +50,6 @@ public class BankDatabase {
 	
 	// debit an amount from account with specified account number
 	public void debit(int userAccountNumber, double amount) {
-		getAccount(userAccountNumber).depit(amount);
+		getAccount(userAccountNumber).debit(amount);
 	}
 }

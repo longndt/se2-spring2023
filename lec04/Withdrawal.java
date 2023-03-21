@@ -1,7 +1,7 @@
 //Class Withdrawal represents an ATM withdrawal transaction
 
 public class Withdrawal extends Transaction {
-	private int amount; // amount to withdrawn
+	private int amount; // amount to withdraw
 	private Keypad keypad; // reference to keypad
 	private CashDispenser cashDispenser; // reference to cash dispenser
 	
@@ -34,7 +34,7 @@ public class Withdrawal extends Transaction {
 			
 			// check whether user choose withdrawal amount or canceled
 			if (amount != CANCELED) {
-				// get available balance of account ivolved
+				// get available balance of account involved
 				availableBalance = bankDatabase.getAvailableBalance(getAccountNumber());
 				
 				if (amount <= availableBalance) {
