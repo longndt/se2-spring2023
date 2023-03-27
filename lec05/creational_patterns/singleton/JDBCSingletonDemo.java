@@ -42,9 +42,9 @@ class JDBCSingletonDemo {
 				try {
 					int i = jdbc.insert(username, password);
 					if (i > 0) {
-						System.out.println((count++) + " Data has been inserted successfully");
+						System.out.println((count++) + " Data has been inserted successfully !");
 					} else {
-						System.out.println("Data has not been inserted ");
+						System.out.println("Data has not been inserted !");
 					}
 
 				} catch (Exception e) {
@@ -71,15 +71,15 @@ class JDBCSingletonDemo {
 			} // End of case 2
 				break;
 			case 3: {
-				System.out.print("Enter the userid,  you want to delete: ");
+				System.out.print("Enter the userid that you want to delete: ");
 				int userid = Integer.parseInt(br.readLine());
 
 				try {
 					int i = jdbc.delete(userid);
 					if (i > 0) {
-						System.out.println((count++) + " Data has been deleted successfully");
+						System.out.println((count++) + " Data has been deleted successfully !");
 					} else {
-						System.out.println("Data has not been deleted");
+						System.out.println("Data has not been deleted !");
 					}
 
 				} catch (Exception e) {
@@ -91,15 +91,15 @@ class JDBCSingletonDemo {
 			} // End of case 3
 				break;
 			case 4: {
-				System.out.print("Enter the username,  you want to update: ");
+				System.out.print("Enter the username that you want to update: ");
 				String username = br.readLine();
-				System.out.print("Enter the new password ");
+				System.out.print("Enter the new password: ");
 				String password = br.readLine();
 
 				try {
 					int i = jdbc.update(username, password);
 					if (i > 0) {
-						System.out.println((count++) + " Data has been updated successfully");
+						System.out.println((count++) + " Data has been updated successfully !");
 					}
 
 				} catch (Exception e) {
@@ -115,6 +115,6 @@ class JDBCSingletonDemo {
 				return;
 			}
 
-		} while (choice != 4);
+		} while (choice != 5);
 	}
 }

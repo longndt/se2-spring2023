@@ -32,8 +32,8 @@ class JDBCSingleton {
 	private static Connection getConnection() throws ClassNotFoundException, SQLException {
 
 		Connection con = null;
-		Class.forName("com.mysql.jdbc.Driver");
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ashwanirajput", "root", "ashwani");
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/singleton", "root", "root");
 		return con;
 
 	}
@@ -80,7 +80,7 @@ class JDBCSingleton {
 			ps.setString(1, name);
 			rs = ps.executeQuery();
 			while (rs.next()) {
-				System.out.println("Name= " + rs.getString(2) + "\t" + "Paasword= " + rs.getString(3));
+				System.out.println("Name= " + rs.getString(2) + "\t" + "Password= " + rs.getString(3));
 
 			}
 
