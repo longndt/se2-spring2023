@@ -8,7 +8,6 @@ public class Student {
 	private int age;
 	private String phone;
 	private String address;
-	private String course;
 
 	//TO-DO: Implement the constructor
 	public Student(StudentBuilder studentBuilder) {
