@@ -7,6 +7,7 @@ package lecture.lec05.structural_patterns.adapter;
 public interface CreditCard 
 
 {
+	//declare here (1)
 	public void giveBankDetails();
 	public String getCreditCard();
 	

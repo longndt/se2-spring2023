@@ -7,7 +7,7 @@ public class ShopKeeper {
 	private MobileShop iphone;
 	private MobileShop samsung;
 	private MobileShop blackberry;
-	
+	private MobileShop sony;
 	
 	public ShopKeeper(){
 		
@@ -16,6 +16,8 @@ public class ShopKeeper {
 		samsung=new Samsung();
 		
 		blackberry=new Blackberry();
+
+		sony = new Sony();
 		
 	}
 	

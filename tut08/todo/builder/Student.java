@@ -24,7 +24,7 @@ public class Student {
 	
 	// Create the StudentBuilder inner class
 	public static class StudentBuilder {
-		//TO-DO: Initialize the similar attributes with Student class
+		//TO-DO: Declare the similar attributes with Student class
 
 		//TO-DO: Implement the constructor
 		public StudentBuilder(int id, String firstName, String lastName) {
