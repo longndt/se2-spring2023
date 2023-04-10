@@ -1,0 +1,4 @@
+FITTING SQUARE PEGS INTO ROUND HOLES 
+
+This simple example shows how an Adapter 
+can make incompatible objects work together.
