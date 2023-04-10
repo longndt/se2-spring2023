@@ -24,7 +24,7 @@ abstract class Plan
 
 // Step 2 
 
-// We are going to create a Concrete classes that extends Plan abstract class.
+// We are going to create a concrete classes that extends Plan abstract class.
 
 class DomesticPlan extends Plan {
 	// @override
