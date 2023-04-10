@@ -21,10 +21,10 @@ public class Demo {
 		
 		//TO-DO: Create 2 corresponding instances of SquarePegAdapter  
 		 
-		//TO-DO: If the RoundHole instance can "fits" with "small" RoundPegAdapter instance 
+		//TO-DO: If the RoundHole instance can "fit" with "small" RoundPegAdapter instance 
 		//show a suitable message
 	 
-		//TO-DO: If the RoundHole instance can not "fits" with "big" RoundPegAdapter instance 
+		//TO-DO: If the RoundHole instance can not "fit" with "big" RoundPegAdapter instance 
 		//show a suitable message
 	}
 }
