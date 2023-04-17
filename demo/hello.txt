@@ -1,4 +1,0 @@
-hello everyone. i am testing to push file to global repository
-from my local repository through Github platform.
-
-adding test from Github.com. check whether it appear in local repository in PC or not ????
